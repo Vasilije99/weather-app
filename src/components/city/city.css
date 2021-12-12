@@ -1,0 +1,49 @@
+.city{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.weather{
+    width: 250px;
+}
+
+.weather span{
+    font-weight: bold;
+}
+
+.weather ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.weather ul li{
+    margin-left: 10px;
+    margin-bottom: 6px;
+}
+
+.weather ul li i {
+    color: #EB6E4B;
+}
+
+.weather ul li b {
+    color: #EB6E4B;
+}
+
+@media screen and (max-width: 700px) {
+    .weather ul {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .city {
+        display: block;
+    }
+    
+    .weather {
+        margin: auto;
+    }
+}

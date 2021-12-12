@@ -1,0 +1,68 @@
+.dailyTemp {
+    width: 400px;
+}
+
+.dailyTemp ul{
+    list-style: none;
+    padding: 0;
+}
+
+.dailyTemp ul li{
+    font-size: larger;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.dailyTemp ul li .temp{
+    margin-right: 15px;
+    font-size: 17px;
+}
+
+.dailyTemp ul li .description{
+    font-size: 12px;
+}
+
+.dailyTemp ul li .menu:hover {
+    cursor: pointer;
+}
+
+.dailyTemp ul .menu table {
+    color: #EB6E4B;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.dailyTemp ul .menu table tr:first-child {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 700px) {
+    .dailyTemp ul li{
+        font-size: smaller;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .dailyTemp {
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .dailyTemp {
+        max-width: 300px;
+    }
+
+    .dailyTemp ul li {
+        justify-content: space-evenly;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .description {
+        display: none;
+    }
+}

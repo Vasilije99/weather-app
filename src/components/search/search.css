@@ -1,0 +1,27 @@
+.search{
+    background-color: #EB6E4B;
+    position:fixed;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+}
+
+button{
+    height: 37px;
+    margin-top: 23px;
+    border: none;
+    border-radius: 5%;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+    button {
+        margin: auto;
+        width: 250px;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+}
